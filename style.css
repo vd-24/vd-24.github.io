@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    /* border : 1px solid red; */
+    padding: 15px 100px;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+#nav-in{
+    display: flex;
+    justify-content: space-between;
+    border : 1px solid red;
+    padding: 10px 0px;
+    width: 50%;
+}
+#nav-in a{
+    text-decoration: none;
+}
