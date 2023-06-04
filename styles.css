@@ -436,6 +436,8 @@ i{
 
 
 @media screen and (max-width:900px){
+
+
     .contact-container{
         display: block;
         width: 100%;
@@ -472,6 +474,15 @@ i{
         width: 99%;
         /* color */
     }
+
+    .github p{
+        font-size: 16px;
+        padding: 12px;
+    }
+    .github a{
+        font-size: 16px;
+        padding: 13px;
+    }
 }
 
 
@@ -479,8 +490,12 @@ i{
     .github i{
         font-size: 25px;
        }
-       .github a,.github p{
-           font-size: 12px;
+       .github p{
+           font-size: 14px;
+           padding: 8px;
+       }
+       .github a{
+           font-size: 14px;
            padding: 10px;
        }
 
