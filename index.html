@@ -1,71 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Vishwajeet Deshmukh Portfolio</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vishwajeet Deshmukh Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+    <script src="https://kit.fontawesome.com/d4cc0930cc.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+
+
 </head>
-
 <body>
-  <nav id="navbar">
-    <div><h1>Vishwajeet</h1></div>
-    <div id="nav-in">
-        <div><a href="#">Home</a></div>
-        <div><a href="#">About Me</a></div>
-        <div><a href="#">Skills</a></div>
-        <div><a href="#">Projects</a></div>
-        <div><a href="#">Contact</a></div>
-        <div><a href="#">Resume</a></div>
-    </div>
-    
-    
-  </nav>
-
-  <section id="skills">
-    <h1>Technical Skills</h1>
-    <div class="user-skills">
-      <div class="skills-card">
-        <img class="skills-card-img" src="img/java.png" alt="">
-        <p class="skills-card-name">Java</p>
+      <!-- Header container (navbar & header) -->
+    <section id="header">  
+    <!-- Navbar starts here -->
+    <nav id="nav-menu" class="nav-menu">
+  
+        <div id="portfolio-logo" class="portfolio-logo"><h3>Vishwajeet</h3>
+            <i id="xmark" class="fa-solid fa-xmark xmark-logo"></i>
+            <i id="hamburger" class="fa-solid fa-bars hamburger"></i>
+        </div>
         
-      </div>
-      <div class="skills-card">
-        <img class="skills-card-img" src="img/spring-boot.png" alt="">
-        <p class="skills-card-name">Spring Boot</p>
-        
-      </div>
-      <div class="skills-card">
-        <img class="skills-card-img" src="img/js.png" alt="">
-        <p class="skills-card-name">JavaScript</p>
-      </div>
+  
+        <div id="nav-links-container" class="nav-links-container">
+            <ul>
+                <div id="container" class="container">
+                    <li class="nav-link home"><a href="">Home</a></li>
+                    <li class="nav-link about"><a href="">About</a></li>
+                    <li class="nav-link skills"><a href="">Skills</a></li>
+                    <li class="nav-link projects"><a href="">Projects</a></li>
+                    <li class="nav-link contact"><a href="">Contact</a></li>
+                    <li class="nav-link resume"><a href="">Resume <i class="fa fa-download" aria-hidden="true"></i></a></li>
+                    
+                </div>
+            </ul>
+        </div>
+    </nav>
+    <!-- Navbar ends here  -->
+  
+    <!--Home Section starts here-->
+      <section class="homie" id="home">
+          <div class="max-width">
+              <div class="home-content">
+                  <div class="text-1">Hello, my name is</div>
+                  <div class="text-2">Vishwajeet Deshmukh</div>
+                  <div class="text-3">And I'm a <span class="typing"></span></div>
+                  <div class="classbox">
+                  <a href="#">Hire me</a>
+              </div>
+              </div>
+          </div>
+      </section>
+      <!-- Home Section Ends -->
 
-      <div class="skills-card">
-        <img class="skills-card-img" src="img/mysql.png" alt="">
-        <p class="skills-card-name">MySql</p>
-       
-      </div>
-      <div class="skills-card">
-        <img class="skills-card-img" src="img/html-5.png" alt="">
-        <p class="skills-card-name">HTML</p>
-      </div>
-      <div class="skills-card">
-        <img class="skills-card-img" src="img/css-3.png" alt="">
-        <p class="skills-card-name">CSS</p>
-      
-      </div>
-      <div class="skills-card">
-        <img class="skills-card-img" src="img/visual-studio.png" alt="">
-        <p class="skills-card-name">VS Code</p>
-      </div>
-      <div class="skills-card">
-        <img class="skills-card-img" src="img/github.png" alt="">
-        <p class="skills-card-name">Github</p>
-      </div>
+    </section>
+    <!--Header ends here-->
+
+<!-- About Me starts -->
+
+
+
+<!-- About Me Ends -->
+
+<!-- Skills section starts -->
+
+<section id="skills" class="skills-section">
+    <h1>Skills & Tech-stack</h1>
+    <div id="skill-container" class="skill-container">
+        <div class="skills-card">
+            <img src="/Data/java-svgrepo-com.svg" alt="java_logo">
+            <p class="skills-card-name">Java</p>
+        </div>
+
+        <div class="skills-card">
+            <img src="./Data/javascript-svgrepo-com.svg" alt="javascript_logo" srcset="">
+            <p class="skills-card-name">JavaScript</p>
+        </div>
+
+        <div class="skills-card">
+            <img src="/Data/html-5-svgrepo-com.svg" alt="html_logo" srcset="">
+            <p class="skills-card-name">HTML5</p>
+        </div>
+
+        <div class="skills-card">
+            <img src="/Data/css-3-svgrepo-com.svg" alt="css_logo" class="skills-card-img">
+            <p class="skills-card-name">CSS3</p>
+        </div>
+
+        <div class="skills-card">
+            <img src="/Data/spring-svgrepo-com.svg" alt="spring_logo" class="skills-card-img">
+            <p class="skills-card-name">Spring Boot</p>
+        </div>
+
+        <div class="skills-card">
+            <img src="/Data/mysql-svgrepo-com.svg" alt="mysql_logo" class="skills-card-img">
+            <p class="skills-card-name">MySQL</p>
+        </div>
+
+        <div class="skills-card">
+            <img src="/Data/database-svgrepo-com.svg" alt="jsbc_logo" class="skills-card-img">
+            <p class="skills-card-name">JDBC</p>
+        </div>
+
+        <div class="skills-card">
+            <img src="/Data/hibernate-svgrepo-com.svg" alt="hibernate_logo" class="skills-card-img">
+            <p class="skills-card-name">Hibernate</p>
+        </div>
+
+        <div class="skills-card">
+            <img src="/Data/maven-svgrepo-com.svg" alt="maven_logo" class="skills-card-img">
+            <p class="skills-card-name">Maven</p>
+        </div>
+
+        <div class="skills-card">
+            <img src="/Data/swagger-svgrepo-com.svg" alt="swagger_logo" class="skills-card-img">
+            <p class="skills-card-name">Swagger</p>
+        </div>
+
+        <div class="skills-card">
+            <img src="/Data/postman-icon-svgrepo-com.svg" alt="postman_logo" class="skills-card-img">
+            <p class="skills-card-name">Postman</p>
+        </div>
+
+        <div class="skills-card">
+            <img src="/Data/git-svgrepo-com.svg" alt="git_logo" class="skills-card-img">
+            <p class="skills-card-name">Git</p>
+        </div>
+
     </div>
-  </section>
-<a href=""></a>
+
+</section>
+
+<!-- Skills section ends ^^^^-->
+
+<!-- Contact Section Starts Here -->
+
+<section id="contact">
+    <h1>Contact me</h1>
+    <div id="contact-container" class="contact-container">
+        <div id="get-in-touch" class="get-in-touch">
+                <h4>Get in touch</h4>
+
+                <div id="contact-github" class="github">
+                    <i class="fa-brands fa-github"></i>
+                    <a href="#">vd-24</a>
+                </div>
+
+                <div id="contact-linkedin" class="github">
+                    <i class="fa-brands fa-linkedin"></i>
+                    <a href="#">Vishwajeet Deshmukh</a>
+                </div>
+
+                <div id="contact-phone" class="github">
+                    <i class="fa-solid fa-phone"></i>
+                    <p>+91-7391926836</p>
+                </div>
+
+                <div id="contact-email" class="github">
+                    <i class="fa-solid fa-envelope"></i>
+                    <p>deshmukhjeet6@gmail.com</p>
+                </div>
+        </div>
+
+        <div id="contact-message" class="contact-message">
+                <h4>Message me</h4>
+                <input type="text" name="Name" id="name" class="send-message" placeholder="Name">
+                <input type="email" name="Email" id="email" class="send-message" placeholder="Email">
+                <input type="text" name="Subject" id="subject" class="send-message" placeholder="Subject">
+                <textarea id="message" class="send-message" placeholder="Message"></textarea>
+                <!-- <input type="text"  name="Message" id="message" class="send-message" placeholder="Message"> -->
+                <input type="submit" id="btn-message" class="btn-message" value="SEND">
+            </div>
+
+    </div>
+</section>
+
+
+<!-- Contact Section Ends Here -->
+ 
+
 </body>
+
+<script src="index.js"></script>
 
 </html>
