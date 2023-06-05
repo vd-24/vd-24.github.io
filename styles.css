@@ -313,6 +313,93 @@ i{
 
 /* Home Section Ends Here */
 
+
+/* About Section Starts */
+
+.about-container{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    padding: 12% 0%;
+}
+.photo-container img{
+    width:200px;
+    display: block;
+    margin: auto;
+   border: 1px solid navy;
+    border-radius: 100%;
+    /* padding: 10px; */
+}
+
+.photo-container{
+    display: flex;
+    width: 25%;
+    margin-top: 50px;
+}
+.user-detail-intro{
+    /* border: 1px solid red; */
+    width: 60%;
+}
+
+.user-detail-intro h4{
+    font-size: 35px;
+    line-height: 70px;
+    /* font-weight: 700; */
+}
+
+.user-detail-intro p{
+    line-height: 160%;
+    /* font-weight: 500; */
+}
+
+.user-detail-intro h4{
+    color: red;
+    text-decoration: underline;
+    text-decoration-color: navy;
+}
+
+
+@media screen and (max-width:912px){
+    .about-container{
+        display: block;
+    }
+    .photo-container img{
+        width:160px;
+    }
+    
+    .photo-container{
+        display: flex;
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    .user-detail-intro{
+        /* border: 1px solid red; */
+        width: 100%;
+        /* margin: auto; */
+    }
+    
+    .user-detail-intro h4{
+        font-size: 30px;
+        line-height: 35px;
+        text-align: center;
+        line-height: 200%;
+        /* font-weight: 700; */
+    }
+    
+    .user-detail-intro p{
+        line-height: 140%;
+        text-align: justify;
+        /* font-weight: 500; */
+    }
+
+    
+}
+/* About Section Ends*/
+
+
+
+
 /* Contact Section starts here */
 
 .contact-container{
@@ -328,9 +415,10 @@ i{
 #contact h1{
     text-align: center;
     /* text-decoration:underline; */
-    color: navy;
+    /* color: navy; */
+    color: red;
     text-decoration-line:underline;
-    text-emphasis-color: navy;
+    text-decoration-color: navy;
     padding-bottom: 50px;
     font-size: 40px;
 
@@ -518,7 +606,8 @@ i{
 
 .skills-section{
     background-color: navy;
-    padding: 50px 0px;
+    padding: 100px 0px;
+    /* height: 100vh; */
 }
 .skill-container img{
     width: 70%;
@@ -556,9 +645,11 @@ i{
     text-align: center;
     /* text-decoration:underline; */
     color: rgb(255, 255, 255);
+  
     text-decoration-line:underline;
     /* text-decoration-thickness: 3px; */
     text-decoration-color: rgb(255, 255, 255); 
+    
     padding-bottom: 50px; 
     font-size: 40px;
 
@@ -566,6 +657,11 @@ i{
 
 
 @media screen and (max-width:912px) and (min-width:600px){
+    .skills-section{
+        background-color: navy;
+        padding: 80px 0px;
+        height: auto
+    }
     .skill-container{
         /* border: 1px solid red; */
         grid-template-columns: repeat(4,1fr);
