@@ -359,6 +359,14 @@ i{
     text-decoration-color: navy;
 }
 
+#resume-link-2{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    padding-top: 20px;
+}
+
+
 
 @media screen and (max-width:912px){
     .about-container{
@@ -484,11 +492,11 @@ i{
     display: block;
     margin: auto;
     /* background: none; */
-    border: 2px solid navy;
+    /* border: 2px solid navy; */
     background-color: navy;
     color: #fff;
     padding: 10px;
-    width: 150px;
+    /* width: 150px; */
     border-radius: 5px;
     margin-top: 14px;
     font-size: 18px;
@@ -496,10 +504,13 @@ i{
 
 .btn-message:hover{
     background-color: rgba(3, 3, 225, 0);
+    background-color: rgb(0, 0, 195);
+    transform: translateY(-1px);
+    transition: all .3s ease-in-out;
     /* border: 2px solid navy; */
-    color: navy;
-    color: red;
-    /* transition: ease-out; */
+    /* color: navy;
+    color: red; */
+    transition: ease-out;
 } 
 
 .github{
