@@ -66,7 +66,7 @@
  <div id="about-container" class="about-container">
 
     <div id="photo-container" class="photo-container">
-        <img src="/Data/profile photo.png" alt="user photo">
+        <img src="./Data/Picsart_23-03-08_11-31-36-689.jpg" alt="user photo">
     </div>
     
     <div id="user-detail-intro" class="user-detail-intro">
@@ -153,6 +153,51 @@
 </section>
 
 <!-- Skills section ends ^^^^-->
+
+
+ <!------------------- Github Stats and Calender Section ---------------------->
+
+ <section class="react-activity-calendar">
+    <div class="max-width">
+        <h2 class="title">My GitHub Contribution</h2>
+    </div>
+    <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+        <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/>
+
+    <!-- Prepare a container for your calendar. -->
+    <div class="calendar">
+
+        Loading...
+    </div>
+
+    <script>
+        GitHubCalendar(".calendar", "vd-24");
+        // or enable responsive functionality
+        GitHubCalendar(".calendar", "vd-24", { responsive: true });
+    </script>
+
+    <br><br><br><br>
+
+    <div class="regular">
+        <div class="git-card">
+            <img id="github-streak-stats"
+                src="https://github-readme-streak-stats.herokuapp.com/?user=vd-24&theme=shades-of-purple&hide_border=false"
+                alt="stat-card" />
+        </div>
+        <div class="git-card" >
+            <img id="github-top-langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vd-24&theme=shades-of-purple&hide_border=false&include_all_commits=true&count_private=true&layout=compact"
+                alt="vd-24" />
+        </div>
+        <div class="git-card">
+            <img id="github-stats-card"
+                src="https://github-readme-stats.vercel.app/api?username=vd-24&theme=shades-of-purple&hide_border=false&include_all_commits=true&count_private=true"
+                alt="top-languages" />
+        </div>
+    </div>
+</section>
+
+<!-- github Section -->
+
 
 <!-- Contact Section Starts Here -->
 

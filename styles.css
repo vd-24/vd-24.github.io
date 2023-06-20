@@ -324,18 +324,18 @@ i{
     padding: 12% 0%;
 }
 .photo-container img{
-    width:200px;
+    width:220px;
     display: block;
     margin: auto;
-   border: 1px solid navy;
+   border: 2px solid navy;
     border-radius: 100%;
     /* padding: 10px; */
 }
 
 .photo-container{
     display: flex;
-    width: 25%;
-    margin-top: 50px;
+    width: 30%;
+    /* margin-top: 50px; */
 }
 .user-detail-intro{
     /* border: 1px solid red; */
@@ -498,6 +498,7 @@ i{
     background-color: rgba(3, 3, 225, 0);
     /* border: 2px solid navy; */
     color: navy;
+    color: red;
     /* transition: ease-out; */
 } 
 
@@ -700,3 +701,50 @@ i{
         font-size: 13px;
     }
 }
+
+
+
+/* ------------github--------- */
+
+.react-activity-calendar{
+    /* background-color: navy; */
+}
+
+.react-activity-calendar h2{
+    text-align: center;
+    /* text-decoration:underline; */
+    /* color: navy; */
+    color: red;
+    text-decoration-line:underline;
+    text-decoration-color: navy;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    font-size: 40px;
+}
+
+.react-activity-calendar .title::before {
+    width: 455px;
+  }
+
+  .regular .git-card img {
+    width: 100%;
+    height: 100%;
+    /* border: 5px solid black; */
+  }
+  
+  #most-lang {
+    /* border: 4px solid red; */
+    width: 355px;
+  }
+  .react-activity-calendar .calendar {
+    border: none;
+    width: 85%;
+  }
+  
+  
+  .regular {
+    width: 85%;
+    height: auto;
+    margin: auto;
+    display: flex;
+  }
