@@ -824,30 +824,50 @@ i{
 /* Project Section */
 
 #projects {
-    padding-top: 50px;
+    padding-top: 100px;
     width: 80%;
     margin: 0 auto;
     max-width: 960px;
     padding-bottom: 130px;
+    /* border: 1px solid red; */
+}
+
+#projects h1{
+    text-align: center;
+    /* text-decoration:underline; */
+    /* color: navy; */
+    color: red;
+    text-decoration-line:underline;
+    text-decoration-color: navy;
+    padding-bottom: 50px;
+    font-size: 40px;
 }
 
 #projects .project-card {
     background: #ffffff;
+    background-color: navy;
     display: flex;
     justify-content: space-between;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     padding: 20px;
     margin: 60px auto;
+    /* border: 1px solid red; */
 }
 
 #slideshow1 {
     width: 50%;
+    /* border: 1px solid red; */
+    display: flex;
 }
 
 #slideshow1 img {
+
     width: 100%;
-    border: 1px solid rgb(187, 187, 187);
+    border: 1px solid navy;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 #projects .project-card .description {
@@ -860,12 +880,14 @@ i{
     font-size: 25px;
     text-align: center;
     margin: 0;
+    color: white;
 }
 
 #projects .project-card .description p {
     font-weight: 500;
     text-align: justify;
     padding: 0 10px;
+    color: white;
 }
 
 #projects .project-card .description h4 {
@@ -873,11 +895,13 @@ i{
     font-weight: 600;
     margin: 0;
     padding: 9px;
+    color: white;
 }
 
 #projects .project-card .description h4 span {
     font-size: 18px;
     font-weight: 400;
+    color: white;
 }
 
 #projects .project-card .description .link {
@@ -895,8 +919,31 @@ i{
     width: 20%;
     cursor: pointer;
     transition: .6s ease;
+    color: white;
 }
 
 #projects .project-card .description .link img:hover {
     transform: scale(1.2);
+}
+
+@media screen and (max-width:912px){
+    #projects .project-card {
+        display: block;
+
+    }
+
+    #slideshow1 {
+        width: 100%;
+        /* border: 1px solid red; */
+        display: flex;
+    }
+    #projects .project-card .description {
+       
+        width: 100%;
+    }
+
+    #projects h1{
+       
+        font-size: 30px;
+    }
 }
