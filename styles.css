@@ -844,7 +844,7 @@ i{
 }
 
 #projects .project-card {
-    background: #ffffff;
+    /* background: #ffffff; */
     background-color: navy;
     display: flex;
     justify-content: space-between;
@@ -872,7 +872,7 @@ i{
 
 #projects .project-card .description {
     padding: 0 10px;
-    color: #000000;
+    color: #ffffff;
     width: 46%;
 }
 
